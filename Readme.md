@@ -30,27 +30,22 @@ It’s designed to be simple, educational, and modular — perfect for poker ent
 All functions are tested with the `testthat` framework.
 <br>
 To run the tests:
-> library(testthat)
-
-> test_dir("tests")
-
+```
+library(testthat)
+test_dir("tests")
+```
 ---
 
 ## 📂 Package Structure
+```
 PokerR/
-<br>
 ├── R/                  # Core R functions
-<br>
 ├── man/                # Documentation
-<br>
 ├── tests/              # Unit tests
-<br>
 ├── DESCRIPTION         # Package metadata
-<br>
 ├── NAMESPACE           # Function exports
-<br>
 └── README.md           # This file
-
+```
 ---
 
 ## Documentation
@@ -58,4 +53,5 @@ Once installed, you can view the help files for any function:
 - `?play_poker`
 - `?estimate_win_prob`
 - `?create_deck`
+
 
