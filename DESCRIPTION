@@ -1,0 +1,10 @@
+Package: pokerr
+Title: Poker R
+Description: Play poker with R and calculate the win probability with monte carlo simulation
+Version: 1.0
+Authors@R: person("Erick", "Khosasi", email = "erickkhosasi98@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video: https://youtu.be/desBYWXNbUg
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
