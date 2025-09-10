@@ -15,14 +15,14 @@ It’s designed to be simple, educational, and modular — perfect for poker ent
 ---
 
 ## 🛠 Core Functions
-`create_deck()` : Creates a standard 52-card deck.
-`deal()` : Deals hole cards to players and community cards.
-`parse_cards()` : Splits cards into rank and suit for analysis.
-`is_*()` : Checks for specific poker hands (pair, flush, straight, etc.).
-`evaluate_hand()` : Returns the best 5-card hand for given hole + community cards.
-`get_score()` : Assigns a numeric score to a hand for comparison.
-`get_winner()` : Determines the winner(s) among multiple players.
-`estimate_win_prob()` : Runs Monte Carlo simulations to calculate win probability.
+- `create_deck()` : Creates a standard 52-card deck.
+- `deal()` : Deals hole cards to players and community cards.
+- `parse_cards()` : Splits cards into rank and suit for analysis.
+- `is_*()` : Checks for specific poker hands (pair, flush, straight, etc.).
+- `evaluate_hand()` : Returns the best 5-card hand for given hole + community cards.
+- `get_score()` : Assigns a numeric score to a hand for comparison.
+- `get_winner()` : Determines the winner(s) among multiple players.
+- `estimate_win_prob()` : Runs Monte Carlo simulations to calculate win probability.
 
 ---
 
@@ -30,23 +30,30 @@ It’s designed to be simple, educational, and modular — perfect for poker ent
 All functions are tested with the `testthat` framework.
 To run the tests:
 > library(testthat)
+<br>
 > test_dir("tests")
 
 ---
 
 ## 📂 Package Structure
 PokerR/
+<br>
 ├── R/                  # Core R functions
+<br>
 ├── man/                # Documentation
+<br>
 ├── tests/              # Unit tests
+<br>
 ├── DESCRIPTION         # Package metadata
+<br>
 ├── NAMESPACE           # Function exports
+<br>
 └── README.md           # This file
 
 ---
 
 ## Documentation
 Once installed, you can view the help files for any function:
-`?play_poker`
-`?estimate_win_prob`
-`?create_deck`
+- `?play_poker`
+- `?estimate_win_prob`
+- `?create_deck`
