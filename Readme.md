@@ -28,9 +28,10 @@ It’s designed to be simple, educational, and modular — perfect for poker ent
 
 ## 🧪 Testing
 All functions are tested with the `testthat` framework.
+<br>
 To run the tests:
 > library(testthat)
-<br>
+
 > test_dir("tests")
 
 ---
@@ -57,3 +58,4 @@ Once installed, you can view the help files for any function:
 - `?play_poker`
 - `?estimate_win_prob`
 - `?create_deck`
+
